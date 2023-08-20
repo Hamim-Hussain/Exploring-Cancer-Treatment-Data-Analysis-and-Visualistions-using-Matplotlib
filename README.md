@@ -15,5 +15,20 @@ Within data folder in Pymaceuticals folder:
 
 ## Findings
 
+![summary_table_stats](images/summary_table_stats.JPG)
 
+![tumor_vol_table](images/tumor_vol_table.JPG)
 
+![bar1](images/bar1.JPG)
+
+![bar2](images/bar2.JPG)
+
+![pie1](images/pie1.JPG)
+
+![pie2](images/pie2.JPG)
+
+![boxplot](images/boxplot.JPG)
+
+![line_chart](images/line_chart.JPG)
+
+![scatter_plot](images/scatter_plot.JPG)
