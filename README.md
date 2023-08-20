@@ -8,7 +8,7 @@ Tasked with data prep, I merged mouse_metadata and study_results DataFrames. Ide
 
 For four treatment regimens (Capomulin, Ramicane, Infubinol, Ceftamin), I calculated final tumor volume, quartiles, IQR, and potential outliers. I created box plots to highlight outliers. A line plot showcases tumor volume over time for a specific mouse treated with Capomulin. A scatter plot reveals the correlation between mouse weight and tumor volume. Lastly, I calculated the correlation coefficient and plot a linear regression model for mouse weight and tumor volume.
 
-## ## Source of Data
+## Source of Data
 Within data folder in Pymaceuticals folder:
 * Mouse_metadata.csv
 * Study_results.csv
