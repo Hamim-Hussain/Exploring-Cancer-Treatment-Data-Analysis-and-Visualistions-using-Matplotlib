@@ -1,5 +1,5 @@
 # Matplotlib-Challenge
-<img src="images/stockmarket.jpg" width="1000" height="491">
+<img src="images/pharma.JPG" width="1000" height="491">
 
 In this assignment, you’ll apply what you've learned about Matplotlib to a real-world situation and dataset.
 
