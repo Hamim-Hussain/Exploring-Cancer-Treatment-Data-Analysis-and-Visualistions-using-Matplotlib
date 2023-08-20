@@ -62,11 +62,46 @@ The distribution of male and female mice is important because it provides insigh
 
 The 51% male and 49% female distribution is crucial for ensuring the study's validity, generalizability, and applicability to both genders, which is particularly important for cancer research where gender-related differences might impact treatment outcomes.
 
+## Box Plot
 ![boxplot](images/boxplot.JPG)
 
+The box plots and associated statistics offer a visual representation of the spread and distribution of tumor volumes across different drug regimens. The IQR gives insight into the range where the majority of tumor volumes fall, while the presence of potential outliers helps identify data points that significantly deviate from the general trend. Overall, these findings provide essential information for evaluating the effectiveness of different drug regimens in managing tumor growth. The absence of potential outliers in Infubinol's data suggests a relatively more consistent distribution, while the presence of outliers in Capomulin, Ramicane, and Ceftamin points to variability in response to these treatments. Further analysis and investigation into these outliers could yield valuable insights into the treatment efficacy and potential factors influencing tumor volume variation.
+
+## Line Plot
 ![line_chart](images/line_chart.JPG)
 
+The line plot of tumor volume vs. time point for a mouse treated with Capomulin provides a visual representation of how the tumor volume changes over the course of the treatment. The observation that the tumor volume initially increases and then experiences a significant decrease holds important implications for understanding the effectiveness of the Capomulin treatment.
+#### Significance:
+
+1. Treatment Response: The rising tumor volume in the initial days indicates that the tumor might have been growing or not responding effectively to the treatment at the beginning. This could be due to various factors such as the tumor's inherent resistance or the treatment's lag in taking effect.
+2. Therapeutic Efficacy: The dramatic fall in tumor volume at day 34 signifies a positive response to the treatment. This reduction suggests that the Capomulin treatment started to effectively inhibit the tumor's growth, leading to a decrease in its size.
+3. Optimal Time for Evaluation: The observed peak at day 19 and subsequent decline highlight the importance of evaluating the treatment's efficacy over time. This pattern suggests that a comprehensive assessment should consider the initial growth, any potential plateau, and eventual reduction in tumor volume to accurately determine the treatment's impact.
+4. Individual Variation: The plot underscores the variability in individual response to the treatment. Different mice may exhibit distinct patterns, indicating the need for personalised treatment strategies and continuous monitoring to adjust interventions as needed.
+5. Decision-Making: This type of plot aids medical professionals and researchers in making informed decisions about treatment courses. The observed response pattern can inform adjustments to the treatment plan, dosages, or combination therapies to maximise positive outcomes.
+
+The line plot highlights the dynamic nature of tumor volume changes in response to Capomulin treatment. It demonstrates the complex interplay between treatment efficacy, individual variation, and the importance of time in assessing therapeutic outcomes. This information guides medical professionals in understanding the progression of treatment and aids in refining patient-specific approaches for managing cancer.
+
+## Scatter Plot
 ![scatter_plot](images/scatter_plot.JPG)
+
+The correlation coefficient of 0.84 between mouse weight and average tumor volume for the Capomulin regimen indicates a strong positive correlation between these two variables. This finding has important implications in understanding the relationship between mouse weight and tumor volume in response to the Capomulin treatment.
+
+#### Interpretation:
+
+1. Positive Correlation: A correlation coefficient of 0.84 suggests that as mouse weight increases, the average tumor volume tends to increase as well. In other words, larger mice within the Capomulin regimen generally have larger tumor volumes. This relationship is termed positive correlation, where both variables move in the same direction.
+2. Strength of Correlation: The correlation coefficient being close to 1 (the maximum value) indicates a strong positive relationship. This means that the change in mouse weight is closely related to the change in average tumor volume.
+
+#### Importance:
+
+1. Treatment Response: The positive correlation suggests that larger mice may be more prone to developing larger tumor volumes. This could be due to various factors such as metabolic rates, genetic predisposition, or the way the drug interacts with different body sizes. Understanding this correlation can help tailor treatment plans and dosages to account for individual variability.
+2. Predictive Capability: The correlation can be used to make predictions about tumor volume based on mouse weight. While correlation does not imply causation, it can still provide a general guideline for expected tumor volume changes based on changes in mouse weight.
+3. Personalised Treatment: Medical professionals can use this information to assess whether certain mice within the Capomulin regimen might need additional interventions, altered dosages, or more frequent monitoring based on their weight and expected tumor volume response.
+4. Research Insights: This correlation can provide insights into the biological mechanisms underlying tumor growth and how they interact with the drug's effects. Further research can delve into these mechanisms to enhance the understanding of treatment outcomes.
+
+The strong positive correlation between mouse weight and average tumor volume within the Capomulin regimen suggests that larger mice tend to have larger tumor volumes. This finding is crucial for tailoring treatment strategies, predicting outcomes, and gaining insights into the complex relationship between variables in cancer treatment research.
+
+## Conclusion
+The Capomulin and Ramicane drug regimens appear to be the most effective at reducing tumour volume in mice, as they had the lowest average final tumour volumes and the lowest tumour volume variance shown in the boxplot graph.Infubinol and Ceftamin regimens, on the other hand, had larger average final tumour volumes and greater tumour volume variance. Also, for the Capomulin regimen, the scatter plot of average tumour volume vs. mouse weight reveals a strong positive correlation between mouse weight and average tumour volume. The correlation coefficient (r) of 0.84 indicates that these variables have a significant positive relationship. Finally, for the Capomulin regimen, the linear regression plot for mouse weight and average tumour volume demonstrates that as mouse weight increases, so does average tumour volume. This indicates that mouse weight could influence tumour volume. Overall, these findings indicate that the Capomulin and Ramicane drug regimens are more successful in decreasing tumour volume in mice, and that controlling for mouse weight is essential when interpreting preclinical study results.
 
 ## Data Dictionary
 1. **Mean** (Average): This column indicates the average tumor volume for each drug regimen. It gives an overall idea of the typical size of tumors under different treatments.
