@@ -27,11 +27,11 @@ This table presents summary statistics for tumor volume based on different drug 
 5. Tumor Volume Std. Err.: The standard error of the mean, representing the uncertainty in the calculated mean.
    
 For instance, looking at the "Capomulin" row:
-Mean Tumor Volume: 40.676
-Median Tumor Volume: 41.558
-Tumor Volume Variance: 24.948
-Tumor Volume Std. Dev.: 4.995
-Tumor Volume Std. Err.: 0.329
+- Mean Tumor Volume: 40.676
+- Median Tumor Volume: 41.558
+- Tumor Volume Variance: 24.948
+- Tumor Volume Std. Dev.: 4.995
+- Tumor Volume Std. Err.: 0.329
 
 Comparing the effects of different drug regimens on tumor growth involves considering the mean tumor volume, which gives us an idea of the typical tumor size for each treatment. The median tumor volume is important because it's less sensitive to extreme values, providing a better representation of the central tendency of the data. We can gain insights into how different drug regimens affect tumor volumes. For instance, a lower mean and median, along with lower standard deviation and SEM, could indicate a more effective treatment in terms of reducing tumor size and keeping the sizes consistent. On the other hand, larger standard deviations and SEMs might suggest more variability and uncertainty in the treatment outcomes.
 
