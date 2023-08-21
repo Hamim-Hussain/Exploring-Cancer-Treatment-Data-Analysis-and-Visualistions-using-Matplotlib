@@ -1,4 +1,4 @@
-# Matplotlib-Challenge
+# Exploring Cancer Treatment Data: Analysis and Visualisations
 <img src="images/pharma.JPG" width="1000" height="491">
 
 ## Introduction 
